@@ -20,27 +20,27 @@ Collection Freamwork
 
    b. LinkedList
 
-       |Data Structure| Doubly Linked List |
-       |Order| Maintains insertion order |
-       |Duplicate| Allows duplicates |
-       |Null Values| Allows multiple nulls |
-       |Thread Safe| No  |
-       |Performance| Fast insertion and deletion |
-       |Resizable| Yes  |
-       |Random Access| Slow  |
-       |Implements| List, Deque  |  
+      |Data Structure| Doubly Linked List |
+      |Order| Maintains insertion order |
+      |Duplicate| Allows duplicates |
+      |Null Values| Allows multiple nulls |
+      |Thread Safe| No  |
+      |Performance| Fast insertion and deletion |
+      |Resizable| Yes  |
+      |Random Access| Slow  |
+      |Implements| List, Deque  |  
 
    c. Vector
          
-       |Data Structure| Dynamic Array  |
-       |Package| java.util  |
-       |Order| Maintains insertion order  |
-       |Duplicate| Allows duplicates  |
-       |Thread Safe| Yes  |
-       |Performance| Slower than ArrayList due to synchronization  |
-       |Resizable| Yes  |
-       |Random Access| Fast using index  |
-       |Synchronization| Synchronized  |
+      |Data Structure| Dynamic Array  |
+      |Package| java.util  |
+      |Order| Maintains insertion order  |
+      |Duplicate| Allows duplicates  |
+      |Thread Safe| Yes  |
+      |Performance| Slower than ArrayList due to synchronization  |
+      |Resizable| Yes  |
+      |Random Access| Fast using index  |
+      |Synchronization| Synchronized  |
 
    d. Stack
 
