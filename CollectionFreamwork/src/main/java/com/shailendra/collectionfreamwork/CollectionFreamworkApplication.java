@@ -2,6 +2,8 @@ package com.shailendra.collectionfreamwork;
 
 import com.shailendra.collectionfreamwork.Collection.list.ArrayListDemo;
 import com.shailendra.collectionfreamwork.Collection.list.LinkedListDemo;
+import com.shailendra.collectionfreamwork.Collection.list.StackDemo;
+import com.shailendra.collectionfreamwork.Collection.list.VectorListDemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -18,6 +20,12 @@ public class CollectionFreamworkApplication {
        LinkedListDemo linkedListDemo = new LinkedListDemo();
        linkedListDemo.showLinkedListDemo();
 
+
+        VectorListDemo vectorListDemo = new VectorListDemo();
+        vectorListDemo.demonstrateVectorList();
+
+        StackDemo stackDemo = new StackDemo();
+        stackDemo.demonstrateStack();
 
 
 
