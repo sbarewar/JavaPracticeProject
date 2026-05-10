@@ -31,16 +31,16 @@ Collection Freamwork
        |Implements| List, Deque  |  
 
    c. Vector
-   
-      |Data Structure| Dynamic Array  |
-      |Package| java.util  |
-      |Order| Maintains insertion order  |
-      |Duplicate| Allows duplicates  |
-      |Thread Safe| Yes  |
-      |Performance| Slower than ArrayList due to synchronization  |
-      |Resizable| Yes  |
-      |Random Access| Fast using index  |
-      |Synchronization| Synchronized  |
+         
+       |Data Structure| Dynamic Array  |
+       |Package| java.util  |
+       |Order| Maintains insertion order  |
+       |Duplicate| Allows duplicates  |
+       |Thread Safe| Yes  |
+       |Performance| Slower than ArrayList due to synchronization  |
+       |Resizable| Yes  |
+       |Random Access| Fast using index  |
+       |Synchronization| Synchronized  |
 
    d. Stack
 
