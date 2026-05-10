@@ -73,7 +73,10 @@ public class LinkedListDemo {
                 Thread Safe	          No
                 Random Access	      Slow
                 Insert/Delete	      Fast in middle
-                Implements	          List, Deque */
+                Implements	          List, Deque
+
+
+         */
 
 
 
