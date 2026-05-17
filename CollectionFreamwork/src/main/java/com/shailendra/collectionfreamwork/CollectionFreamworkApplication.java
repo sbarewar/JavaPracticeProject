@@ -4,6 +4,10 @@ import com.shailendra.collectionfreamwork.Collection.list.ArrayListDemo;
 import com.shailendra.collectionfreamwork.Collection.list.LinkedListDemo;
 import com.shailendra.collectionfreamwork.Collection.list.StackDemo;
 import com.shailendra.collectionfreamwork.Collection.list.VectorListDemo;
+import com.shailendra.collectionfreamwork.Collection.queue.QueueDemo;
+import com.shailendra.collectionfreamwork.Collection.set.HashSetDemo;
+import com.shailendra.collectionfreamwork.Collection.set.LinkedHashSetDemo;
+import com.shailendra.collectionfreamwork.Collection.set.TreeSetDemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -16,16 +20,30 @@ public class CollectionFreamworkApplication {
 
         ArrayListDemo arrayListDemo = new ArrayListDemo();
        arrayListDemo.demonstrateArrayList();
-
+        System.out.println("=====================================================");
        LinkedListDemo linkedListDemo = new LinkedListDemo();
        linkedListDemo.showLinkedListDemo();
-
+        System.out.println("=====================================================");
 
         VectorListDemo vectorListDemo = new VectorListDemo();
         vectorListDemo.demonstrateVectorList();
-
+        System.out.println("=====================================================");
         StackDemo stackDemo = new StackDemo();
         stackDemo.demonstrateStack();
+        System.out.println("=====================================================");
+        HashSetDemo hashSetDemo = new HashSetDemo();
+        hashSetDemo.demonstrateHashSet();
+        System.out.println("=====================================================");
+        LinkedHashSetDemo linkedHashSetDemo = new LinkedHashSetDemo();
+        linkedHashSetDemo.demonstrateLinkedHashSet();
+        System.out.println("=====================================================");
+        TreeSetDemo treeSetDemo = new TreeSetDemo();
+        treeSetDemo.demonstrateTreeSet();
+        System.out.println("=====================================================");
+
+        QueueDemo queueDemo = new QueueDemo();
+        queueDemo.demonstrateQueue();
+
 
 
 
