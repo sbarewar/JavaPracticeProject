@@ -53,5 +53,5 @@ Collection Freamwork
       |Resizable| Yes  |
       |Random Access| No  |
       |Synchronization| Synchronized  |
-      | parent class| Vector  |
-      | Null values| Allows multiple nulls  |
+      |parent class| Vector  |
+      |Null values| Allows multiple nulls  |
